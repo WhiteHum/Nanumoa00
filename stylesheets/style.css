@@ -107,11 +107,11 @@
     }
 
     .board_list .num {
-        width: 10%;
+        width: 25%;
     }
 
     .board_list .title {
-        width: 60%;
+        width: 50%;
         text-align: left;
     }
 
@@ -120,7 +120,7 @@
     }
 
     .board_list .writer {
-        width: 10%;
+        width: 25%;
     }
 
     .board_list .date {
