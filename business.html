@@ -4,6 +4,30 @@
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!-->
+<html lang="en" class="no-js" xmlns:th="http://www.thymeleaf.org"  xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <meta charset="utf-8" />
+    <!-- Set the viewport width to device width for mobile -->
+    <meta name="viewport" content="width=device-width" />
+    <title>Nanumoa</title>
+    <!-- CSS Files-->
+    <link rel="stylesheet" href="stylesheets/style.css">
+
+    <link rel="stylesheet" href="stylesheets/skins/blue.css">
+    <!-- skin color -->
+    <link rel="stylesheet" href="stylesheets/responsive.css">
+    <!-- IE Fix for HTML5 Tags -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
 <html class="no-js" lang="en">
 <!--<![endif]-->
 
@@ -84,119 +108,44 @@
 </div>
 <div class="clear">
 </div>
-<!-- SUBHEADER
-================================================== -->
+<!-- SUBHEADER ================================================== -->
+
 <div id="subheader">
     <div class="row">
         <div class="eight columns">
             <p class="bread leftalign">
-                <a href="farmer1.html"></a>
+                사업자 문의
             </p>
         </div>
-    </div>
-</div>
-<div class="hr">
-</div>
-
-<!--CONTENT-->
-
-<div class="row">
-    <div class="twelve columns noleftmargin">
-        <!-- MAIN CONTENT -->
-        <div class="eight columns">
-            <div class="sectiontitle">
-                <h4 >제목 : [급구] 평창군 분류작업 급구합니다. </h4>
-            </div>
-            <p>
-                <img src="http://www.wowthemes.net/demo/studiofrancesca/images/temp/post.jpg"  class="blogimage grayscale" alt="">
-            </p>
-            <h5>
-                [분류작업 급구합니다.]
-            </h5>
-            <p>
-               상추 분류를 하는데 일손이 부족해서 사람을 급구인하고 있습니다.
-            </p>
-            <h6>
-                작성자 : 이홍오
-            </h6>
-            <h6>
-                기간 : 단기(1개월)
-            </h6>
-            <h6>
-                시급 : 최저시급 (주휴수당 포함)
-            </h6>
-            <h6>
-                장소 : 평창군 평촌리 25번지
-            </h6>
-            <h6>
-                인원 : 2명
-            </h6>
-            <h6>
-                성별 : 무관
-            </h6>
-            <h6>
-                작업 : 상추 분류 작업
-            </h6>
-            <h6>
-                문의전화 : 010 - 9999 - 9999
-            </h6>
-            <br/>
-            <h3> 많은 지원 부탁드립니다.</h3>
-            <br/>
-
-            <div class="panel">
-                <h5 class="left"> </h5>
-                <div class="right">
-                </div>
-                <p class="clear authortext">
-                </p>
-            </div>
-            <div class="migrant1">
-                <a href="ok.html"><button class="btn login2">지원하기</button></a>
-            </div>
-        </div>
-        <!-- SIDEBAR -->
         <div class="four columns">
-            <h6 class="sidebartitle">RECENT COMMENTS</h6>
-            <div class="avatar">
-                <img src="http://www.wowthemes.net/demo/studiofrancesca/images/temp/author1.png" alt="">
-            </div>
-            <p>
-                Many pieces were proposed, but none seemed suitable, because each one wished to play a good ...
-            </p>
-            <div class="avatar">
-                <img src="http://www.wowthemes.net/demo/studiofrancesca/images/temp/author2.png" alt="">
-            </div>
-            <p>
-                Many pieces were proposed, but none seemed suitable, because each one wished to play a good ...
-            </p>
-            <div class="avatar">
-                <img src="http://www.wowthemes.net/demo/studiofrancesca/images/temp/author3.png" alt="">
-            </div>
-            <p>
-                Many pieces were proposed, but none seemed suitable, because each one wished to play a good ...
-            </p>
-            <br class="clear" />
-            <h6 class="sidebartitle">인기 태그</h6>
-            <a href="#" class="tags">하우스</a>
-            <a href="#" class="tags">분류작업</a>
-            <a href="#" class="tags">수확</a>
-            <a href="#" class="tags">비료살포</a>
-            <a href="#" class="tags">포장</a>
-            <a href="#" class="tags">수분작업</a>
-            <a href="#" class="tags">중장비</a>
-            <a href="#" class="tags">단기작업</a>
-            <a href="#" class="tags">숙식제공</a>
-            <a href="#" class="tags">최저시급</a>
-            <br class="clear" />
-            <br/><br/>
+
         </div>
     </div>
 </div>
 <div class="hr">
 </div>
 
-<!-- FOOOTER ================================================== -->
+<!-- CONTENT ================================================== -->
+
+<div class="select_education">
+    <ul>
+        <li>
+            <a><img src="images/business.png" style=" width: 50%; display: flex; margin: auto; padding:1.5%;"></a>
+        </li>
+    </ul>
+</div>
+<div class="row">
+    <div class="twelve columns noleftmargin" style="width: 90%; margin: 100px 0 0 0;">
+        <br class="clear">
+        <input type="text" class="twelve columns noleftmargin" name= "sendName" placeholder="help@help.kr *" />
+        <input type="text" class="twelve columns noleftmargin" name= "receiveEmail" placeholder="문의자 성함 *" />
+        <input type="text" class="twelve columns noleftmargin" name= "subject" placeholder="문의사항 *" />
+        <textarea class="twelve columns noleftmargin" rows="7" name="message" placeholder="  문의내용 :"></textarea>
+        <button type="submit" class="readmore" style="margin: 0 0 0 485px">보내기</button>
+    </div>
+</div>
+<!-- FOOOTER
+================================================== -->
 <div id="footer">
     <footer class="row">
         <p class="back-top floatright">

@@ -1353,7 +1353,7 @@
     .columns {
         float: left;
         min-height: 1px;
-        padding: 0 15px;
+        padding: 0 40px;
         position: relative;
     }
 
@@ -4558,6 +4558,7 @@ that IE7/8 do not support :nth-child.
         margin: 10px 0 25px;
         min-height: 20px;
         text-align: center;
+        width: 950px;
     }
 
     .centersectiontitle h4 {
