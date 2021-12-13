@@ -1327,11 +1327,13 @@
     }
 
     .row-migrant1 {
-        width: 980px;
-        height: 200px;
-        min-width: 768px;
+        width: 100%;
+        display: flex;
         max-width: 100%;
-        margin: 0 auto;
+        margin: 5% auto;
+        flex-direction: row;
+        align-content: stretch;
+        justify-content: center;
     }
 
     .row .row {
@@ -1880,31 +1882,23 @@ that IE7/8 do not support :nth-child.
 
     .button.save1 {
         background-color: #ec8600;
-        /* margin: 150px 21px 150px 25px; */
         font-size: xx-large;
-        border-radius: .5em;
-        float: left;
+        border-radius: 0.5em;
         display: flex;
+        margin: 0 auto;
         justify-content: center;
         padding: 2%;
-        top: 72%;
-        left: 38%;
-        margin: 80px 0 0 -150px;
         text-align: center;
     }
 
     .button.back1 {
         background-color: #55a2a6;
-        margin: 150px 21px 150px 25px;
         font-size: xx-large;
-        border-radius: .5em;
-        float: left;
+        border-radius: 0.5em;
         display: flex;
+        margin: 0 auto;
         justify-content: center;
         padding: 2%;
-        top: 72%;
-        left: 84%;
-        margin: 80px 0 0 -150px;
         text-align: center;
     }
 
