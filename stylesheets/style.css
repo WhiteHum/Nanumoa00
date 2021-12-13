@@ -1319,6 +1319,13 @@
         margin: 0 auto;
     }
 
+    .row1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 0 15%;
+    }
+
     .row-migrant1 {
         width: 980px;
         height: 200px;
@@ -1429,6 +1436,10 @@
 
     .twelve,
     .row .twelve {
+        width: 120%
+    }
+    .twelve,
+    .row .twelve1 {
         width: 120%
     }
 
